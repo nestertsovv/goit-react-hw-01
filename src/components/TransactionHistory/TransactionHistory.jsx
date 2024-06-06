@@ -1,7 +1,6 @@
 import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items = [] }) => {
-  console.log(items);
   return (
     <div className={styles.wrapper}>
       <table className={styles.table}>
