@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.table {
+  color: #272727;
+  border: 1px solid #272727;
+  border-spacing: 0;
+  text-align: center;
+}
+
+.table thead {
+  background-color: #272727;
+  color: #fff;
+}
+.table thead th {
+  padding: 2px;
+  border: none;
+  width: 200px;
+}
+.table thead th:not(:last-of-type) {
+  border-right: 1px solid #000;
+}
+
+.table tbody td {
+  padding: 2px;
+  text-transform: capitalize;
+}
+.table tbody td:first-of-type {
+  text-align: left;
+  padding-left: 60px;
+}
+.table tbody tr:nth-child(even) td {
+  background-color: #bfbfbf;
+}
+.table tbody tr:not(:last-of-type) td {
+  border-bottom: 1px solid #000;
+}
+.table tbody tr td:not(:last-of-type) {
+  border-right: 1px solid #000;
+}
